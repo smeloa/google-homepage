@@ -5,9 +5,13 @@ Misc.
 */
 
 .container {
-	width: 1584px;
+	width: 1600px;
+	min-width: 980px;
+	height: 471;
 	font-family: arial, sans-serif;
 	font-size: 13px;
+	color: rgb(64, 64, 64);
+	margin-left: -10px
 }
 
 a {
@@ -15,6 +19,10 @@ a {
 	color: rgb(64, 64, 64) ;
 }
 
+.content {
+	display: block;
+	padding-bottom: 35px;
+}
 
 /*
 **********
@@ -24,15 +32,23 @@ Navigation
 
 nav {
 	float: right;
-	height: 30px;
-}
+	padding-right: 30px;
+}	
 
 
 nav li {
 	text-align: right;
 	display: inline;
+	margin-right: 10px;
 }
 
+.login {
+	color: white;
+	font-weight: bold;
+	background-color: rgb(66, 133, 244);
+	border: 1px solid rgb(66, 133,244);
+	padding: 5px 12px;
+}	
 
 /*
 **********
@@ -40,12 +56,39 @@ Search
 **********
 */
 
-div .main{
+div .main {
 	height: 380px;
 	padding-top: 200px;
 	text-align: center;
 	margin-left: auto;
   	margin-right: auto;
+}
+
+.searchbox {
+	width: 568px;
+	height: 28px;
+}
+
+.searchprim {
+	background-color: rgb(241, 241, 241);
+	font-size: 11px;
+	font-weight: bold;
+	font: rgb(192,192,192); 
+	width: 98px;
+	padding: 8px;
+	border: solid 1px rgb(200, 200, 200);
+	margin: 11px 8px;
+}
+
+.searchsec {
+	background-color: rgb(241, 241, 241);
+	font-size: 11px;
+	font-weight: bold;
+	font: rgb(192,192,192); 
+	width: 110px;
+	padding: 8px;
+	border: solid 1px rgb(200, 200, 200);
+	margin: 11px 8px;
 }
 
 
@@ -56,14 +99,24 @@ Footer
 */
 
 footer {
+	position: fixed;
+	width: 1627px;
 	height: 40px;
-	width: 100%;
-	position: absolute;
 	bottom: 0;
-	left: 0;
 	background-color: rgb(242, 242, 242);
 }
 
 footer li {
 	display: inline;
+	margin-left: 20px;
+}
+
+.foot1 {
+	float: left;
+	width: 242px;
+}
+
+.foot2 {
+	float: right;
+	width: 364px;
 }

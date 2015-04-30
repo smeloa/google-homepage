@@ -5,6 +5,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Google</title>
+	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -14,37 +15,49 @@
 
 	<nav class="optionsheader">
 		<ul>
-			<li><a href="#">You</a></li>
+			<li><a href="#">+You</a></li>
 			<li><a href="#">Gmail</a></li>
 			<li><a href="#">Images</a></li>
-			<li><a href="#" class="apps logo"><img src="img/SquareLogo.jpg" width="10" height="10" alt="Apps logo"></a></li>
-			<li><a href="#">Sign in</a></li>
+			<li><a href="#" class="apps logo"><img src="img/SquareLogo.jpg" width="10" height="10" alt="appslogo"></a></li>
+			<li><a href="#" class="login">Sign in</a></li>
 		</ul>	
 	</nav>
 
-	<div class="main">
-		<img src="img/GoogleLogo.png" heigh="95" width="269" alt="Google Logo" class="googlelogo">
-		<form> 
-			<input type-"text" name="googlesearch">
-		</form>
-		<div class="searchbuttons">
-			<p><a href="#">Google Search</a>
-			<p><a href="#">I'm feeling Lucky</a></p> 
-		</div>	
+	<div class="content">
+
+		<div class="main">
+			<img src="img/GoogleLogo.png" heigh="95" width="269" alt="Google Logo" class="googlelogo">
+			<div> 
+				<input type-"text" name="googlesearch" class="searchbox">
+			</div>
+			<div class="searchbuttons">
+				<input value="Google Search" aria-label="Google Search" name="search" type="submit" class="searchprim">
+				<input value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" name="lucky" type="submit" class="searchsec">
+			</div>	
+
+			<div class="push"></div>
+
+		</div>
+
+
+		<footer class="fbar">
+			<ul>
+				<div class="foot1">
+					<li class="leftside">Advertising</li>
+					<li class="leftside">Business</li>
+					<li class="leftside">About</li>
+				</div>	
+				<div class="foot2">
+					<li class="rightside">Privacy</li>
+					<li class="leftside">Terms</li>
+					<li class="leftside">Settings</li>
+					<li class="leftside">Use Google.com</li>
+				</div>	
+			<ul>
+		</footer>
+
 	</div>
 
-	<footer>
-		<ul>
-			<li class="leftside">Advertising</li>
-			<li class="leftside">Business</li>
-			<li class="leftside">About</li>
-			<li class="rightside">Privacy</li>
-			<li class="leftside">Terms</li>
-			<li class="leftside">Settings</li>
-			<li class="leftside">Use Google.com</li>
-		<ul>
-	</footer>
-	
 </div>	
 
 </body>
